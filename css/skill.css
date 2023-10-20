@@ -26,6 +26,7 @@ section#skill h2{
 section#skill div{  
   margin-left: 200px;
   padding-top: 200px;
+  height: 800px;
 }
 .progress {
   position: relative;
@@ -36,15 +37,16 @@ section#skill div{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  width: 100%;
+  gap: 200px;
 }
 .progress > li {
   display: inline-block;
   position: relative;
   text-align: center;
-  color: #93A2AC;
   font-family: Lato;
   font-weight: 100;
-  margin: 2rem;
+  margin: 3rem;
   color: whitesmoke;
 }
 .progress > li:before {
@@ -52,14 +54,14 @@ section#skill div{
   position: absolute;
   width: 100%;
   bottom: -2rem;
-  font-weight: 400;
+  font-weight: 600;
 }
 .progress > li:after {
   content: attr(data-percent);
   position: absolute;
   width: 100%;
   top: 3.7rem;
-  left: 0;
+  left: 0px;
   font-size: 2rem;
   text-align: center;
 }

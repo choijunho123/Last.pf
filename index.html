@@ -38,6 +38,7 @@
     <!-- Contact -->
     <link rel="stylesheet" href="css/contact.css">
     <!-- <script  src="contact/script.js"></script> -->
+    <!-- 모바일 -->
     <link rel="stylesheet" href="css/responsive.css">
     <script>
         $(document).ready(function(){
@@ -46,6 +47,22 @@
             $("#menu").removeClass("open");
           });      
         });
+    </script>
+
+    <!-- 타이틀 텍스트-->
+    <link rel="stylesheet" href="css/webflow.css">
+    <script type="text/javascript" src="https://daks2k3a4ib2z.cloudfront.net/5317d67d660658b254000454/js/webflow.js?2f83b8326cc4c8f7327b5dba30444a37"></script>
+
+    <!-- youtube -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/jquery.mb.YTPlayer/3.3.4/css/jquery.mb.YTPlayer.min.css">
+    <script src="//code.jquery.com/jquery-latest.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mb.YTPlayer/3.3.4/jquery.mb.YTPlayer.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        jQuery( function() {
+          jQuery( '#background' ).YTPlayer();
+        });
+      });
     </script>
   </head>
   <body>
@@ -65,31 +82,12 @@
     </header>
       <!-- Title -->
       <section id="title">
-        <div class="start-screen">
-          <div class="loading">
-            <div class="loading__element el1">W</div>
-            <div class="loading__element el2">E</div>
-            <div class="loading__element el3">B</div>
-            <div class="loading__element el5">P</div>
-            <div class="loading__element el6">U</div>
-            <div class="loading__element el7">B</div>
-            <div class="loading__element el5">L</div>
-            <div class="loading__element el6">I</div>
-            <div class="loading__element el7">S</div>
-            <div class="loading__element el7">H</div>
-            <div class="loading__element el5">E</div>
-            <div class="loading__element el6">R</div>
-          </div>
-            <div class="loading">
-            <div class="loading__element el1">P</div>
-            <div class="loading__element el2">O</div>
-            <div class="loading__element el3">R</div>
-            <div class="loading__element el4">T</div>
-            <div class="loading__element el5">F</div>
-            <div class="loading__element el6">O</div>
-            <div class="loading__element el7">L</div>
-            <div class="loading__element el8">I</div>
-            <div class="loading__element el9">O</div>
+        <div class="wrap">
+          <div class="main-heading-wrapper">
+              <h1 data-ix="fade-in-heading">JH.Portfolio&nbsp;</h1>
+              <h1 data-ix="fade-in-heading-2">WEBDESIGN</h1>
+              <h1 class="without-code" data-ix="fade-in-heading-3">WEB</h1>
+              <h1 class="without-code" data-ix="fade-in-heading-4">PUBLISHER</h1>
           </div>
           <button class="toggle-menu">
             <span></span>
@@ -99,8 +97,22 @@
           <div id="menu" class="">
             <nav class="main-nav">          
             </nav>
-          </div>      
+          </div>
         </div>
+        <div id="background" class="player" data-property="{
+          videoURL: 'https://youtu.be/eENHK2N4YN4?list=TLGGX3AJvpx2RWcyMDEwMjAyMw',
+          mute: true,
+          showControls: false,
+          useOnMobile: true,
+          quality: 'highres',
+          containment: 'body',
+          loop: true,
+          autoPlay: true,
+          stopMovieOnBlur: false,
+          startAt: 0,
+          opacity: 1
+        }">
+        </div>    
       </section>
       <!-- About -->
       <section id="about">

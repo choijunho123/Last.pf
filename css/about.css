@@ -1,3 +1,6 @@
+section#about{  
+  position: relative;
+}
 .slider-content {
   position: relative;
   min-width: 480px;
@@ -216,9 +219,8 @@
   margin-left: 0;
 }
 .slider-container .slide-content img {
-  /*! width: 100%; */
   height: 100%;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .footer {
