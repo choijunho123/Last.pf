@@ -9,36 +9,37 @@
   }
 }
 section#skill{  
-  background-color: black;
+  background-color: #131417;
   position: relative;
-  height: 920px;
-}
-section#skill h2{
-  
-  /*! font-size: 45px; */
-  /*! color: white; */
-  display: flex;
-  justify-content: center;
+  height: 100%;
   padding-top: 100px;
-  width: calc(50%);
+  width: 100%;
+}
+section#skill h2{  
+  width: 50%;
   position: relative;
+  color: white;
+  display: flex;
+  font: 300 60px 'Oswald', sans-serif;
+  letter-spacing: 6px;
+  padding-bottom: 30px;
+  margin-left: 200px;
+  padding-left: 100px;
 }
 section#skill div{  
   margin-left: 200px;
-  padding-top: 200px;
-  height: 800px;
+  height: 100%;
 }
 .progress {
   position: relative;
   padding: 0;
   text-align: center;
-  width: calc(100% / 2);
   align-items: center;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   width: 100%;
-  gap: 200px;
+  gap: 150px;
 }
 .progress > li {
   display: inline-block;
@@ -46,28 +47,29 @@ section#skill div{
   text-align: center;
   font-family: Lato;
   font-weight: 100;
-  margin: 3rem;
   color: whitesmoke;
 }
 .progress > li:before {
   content: attr(data-name);
   position: absolute;
   width: 100%;
-  bottom: -2rem;
+  bottom: 5rem;
   font-weight: 600;
+  display: flex;
+  flex-direction: column;
 }
 .progress > li:after {
   content: attr(data-percent);
   position: absolute;
   width: 100%;
-  top: 3.7rem;
+  top: 12rem;
   left: 0px;
   font-size: 2rem;
   text-align: center;
 }
 .progress svg {
   width: 10rem;
-  height: 10rem;
+  height: 11rem;
 }
 .progress svg:nth-child(2) {
   position: absolute;

@@ -72,10 +72,6 @@
     visibility: hidden;
     width: 100%;
     z-index: 1100;
-    background-image: url(../img/free.jpg);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
   }
   #menu.open {
     opacity: 1;

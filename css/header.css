@@ -1,22 +1,24 @@
-header .wrap{
+header .wrap{ 
   padding-bottom: 20px;
   position: fixed;
   z-index: 1;
   top: 0px;
   width: 200px;
   height: 100%;
-  background-color: black;
+  background-color: #1e1f26;
   left: 0;
   padding-top: 35px;
 }
-header div.wrap h1 {
-  background-image: url("../img/logo.png");
-  width: 200px;
-  height: 140px;
+header div.wrap h1 { 
+  background-image: url("../img/logo2.png");
+  width: 127px;
+  height: 108px;
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
-  margin-bottom: 50px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  margin-top: 10px;
 }
 header div.wrap ul {
   padding-left: 23%;
@@ -27,14 +29,15 @@ header div.wrap ul li {
   display: flex;
 }
 header div.wrap ul li:hover a{  
-  color: ghostwhite;
-  text-shadow: 2px 2px 4px;
+  /*! color: wheat; */
+  /*! text-shadow: 1px 1px 3; */
 }
 header div.wrap ul li a {
   color: ghostwhite;
-  text-shadow: 3px 0px 10px;
+  /*! text-shadow: 3px 0px 10px; */
   font-size: 22px;
-  line-height: 4;
+  line-height: 2.5;
+  text-transform: uppercase;
 }
 header div.wrap p{
   position: absolute;
