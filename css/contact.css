@@ -98,7 +98,11 @@ body {
   }  
   .gmail {
     margin-left: 55px;
-  }  
+  }
+  .github{
+    margin-left: 55px;
+    display: ruby;
+  }
   .contact-text a {
     text-decoration: none;
     transition-duration: 0.2s;
