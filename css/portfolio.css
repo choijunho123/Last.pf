@@ -9,7 +9,7 @@
   .gallery {
     position: relative;
     overflow: hidden;
-    height: 920px;
+    height: 100%;
     margin-left: 200px;
     background-color: black;
     padding-top: 100px;

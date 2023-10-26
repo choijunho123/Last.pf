@@ -1,0 +1,23 @@
+footer .btop{
+    width: 80px;
+    height: 80px;
+    display: block;
+    background-color: #222;
+    font-size: 0px;
+    background-image: url(../img/top.svg);
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: rotate(0deg);
+    position: fixed;
+    right: 60px;
+    bottom: calc(234.8px - 40px);
+    border-radius: 50%;
+  }
+footer .a1{
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #aaa;
+}
