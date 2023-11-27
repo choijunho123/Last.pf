@@ -34,7 +34,7 @@ https://choijunho123.github.io/pf6./
 ## 작성자 정보
 Email: wnsqks456@gmail.com
 
-연락처 : 010-8573-5409
+연락처 : 010-8745-7596
 
 ## 향후 계획
 - 추가적인 기능개발
