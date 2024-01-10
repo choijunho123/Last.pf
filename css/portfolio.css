@@ -23,7 +23,7 @@
   letter-spacing: 6px;
 }
   .gallery ul {
-    padding-top: 50px;
+    padding-top: 100px;
     position: relative;
     display: flex;
     flex-wrap: wrap;
