@@ -23,11 +23,11 @@
   letter-spacing: 6px;
 }
   .gallery ul {
-    padding-top: 100px;
+    padding-top: 200px;
     position: relative;
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 100px;
   }
   .gallery ul li {
     margin-bottom: 20px;
